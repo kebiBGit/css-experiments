@@ -4,7 +4,8 @@ Date: 24th March 2009
 Author: Paul Hayes
  */
 
-body {
+
+ body {
     background: #fff;
 }
 
@@ -13,8 +14,28 @@ body {
     font-size: 2em;
     font-weight: bold;
     margin: 0 0 2em;
+    
 }
+.start a {
+    font-family: Arial;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.start-button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #078fd3 ;
+    border: 1 px;
+    border-radius: 3px;
+}
+.start-button:hover {
+    
+    filter:brightness(0.75);
+    transition: filter 0.3s;
 
+}
 #clock {
     position: relative;
     width: 378px;
